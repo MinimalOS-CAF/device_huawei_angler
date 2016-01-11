@@ -1,12 +1,14 @@
 [
   {
-    "remote": "git",
+    "remote": "github",
     "repository": "f100cleveland/saberCore64",
     "target_path": "kernel/huawei/angler",
-    "revision": "saberCore"
+    "branch": "saberCore"
   },
   {
+   "remote": "github",
    "repository": "android_vendor_huawei",
-   "target_path": "vendor/huawei"
+   "target_path": "vendor/huawei",
+   "branch": "6.0"
   }
 ]

@@ -31,7 +31,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a7
 
 # VRToxin
 VRTOXIN_BLOCK_BUILD := false
-TARGET_GCC_VERSION_ARM64 := 5.3-kernel
+
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 # Optimizations
 STRICT_ALIASING := false

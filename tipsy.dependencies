@@ -7,8 +7,8 @@
   },
   {
    "remote": "github",
-   "repository": "android_vendor_huawei",
+   "repository": "VRToxin-AOSP/android_vendor_huawei",
    "target_path": "vendor/huawei",
-   "branch": "6.0"
+   "branch": "mm-6.0"
   }
 ]

@@ -29,9 +29,6 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a7
 
-# VRToxin
-VRTOXIN_BLOCK_BUILD := false
-
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-6.0-kernel/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
@@ -70,6 +67,9 @@ TARGET_BOARD_INFO_FILE := device/huawei/angler/board-info.txt
 TARGET_NO_RPC := true
 
 BOARD_EGL_CFG := device/huawei/angler/egl.cfg
+
+#Needed for VoLTE
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.

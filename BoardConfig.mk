@@ -33,7 +33,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a7
 VRTOXIN_BLOCK_BUILD := false
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-6.0-kernel/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 # Optimizations
@@ -41,7 +41,7 @@ STRICT_ALIASING := false
 CLANG_O3 := true
 ENABLE_GCCONLY := true
 GRAPHITE_OPTS := false
-USE_PIPE := false
+USE_PIPE := true
 
 # System
 export USE_CCACHE := 1

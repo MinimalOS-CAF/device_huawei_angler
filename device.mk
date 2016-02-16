@@ -238,10 +238,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_no_toggle=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.radio.data_con_rprt=true
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ril.force_eri_from_xml=true
+	persist.radio.data_con_rprt=true
 
 # Enable low power video mode for 4K encode
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -376,7 +373,7 @@ PRODUCT_COPY_FILES += \
 
 # subsystem ramdump collection
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.ssr.enable_ramdumps=1
+    persist.sys.ssr.enable_ramdumps=0
 else
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.diag.rc.user:root/init.angler.diag.rc

@@ -30,15 +30,15 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a7
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-6.0-kernel/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 # Optimizations
-STRICT_ALIASING := false
-CLANG_O3 := true
-ENABLE_GCCONLY := true
-GRAPHITE_OPTS := false
-USE_PIPE := true
+#STRICT_ALIASING := false
+#CLANG_O3 := true
+#ENABLE_GCCONLY := true
+#GRAPHITE_OPTS := false
+#USE_PIPE := true
 
 # System
 export USE_CCACHE := 1
@@ -143,7 +143,7 @@ EXTENDED_FONT_FOOTPRINT := true
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/huawei/angler
-TARGET_KERNEL_CONFIG := saber_defconfig
+TARGET_KERNEL_CONFIG := angler_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 
 # TWRP

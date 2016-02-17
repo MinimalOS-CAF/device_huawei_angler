@@ -2,10 +2,10 @@
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Inherit some common Tipsy stuff.
-$(call inherit-product, vendor/tipsy/config/common.mk)
+$(call inherit-product, vendor/minimal/config/common.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := tipsy_angler
+PRODUCT_NAME := minimal_angler
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := angler
 PRODUCT_MODEL := Nexus 6P

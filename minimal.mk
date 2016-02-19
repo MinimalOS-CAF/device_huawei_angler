@@ -1,8 +1,8 @@
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
-# Inherit some common Tipsy stuff.
-$(call inherit-product, vendor/minimal/config/common.mk)
+# Inherit some common minimal stuff.
+$(call inherit-product, vendor/minimal/config/common_full_phone.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := minimal_angler

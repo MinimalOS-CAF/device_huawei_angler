@@ -1,9 +1,8 @@
 [
   {
-    "remote": "github",
-    "repository": "f100cleveland/saberCore64",
-    "target_path": "kernel/huawei/angler",
-    "branch": "saberCore"
+    "remote": "mo",
+    "repository": "kernel_huawei_angler",
+    "target_path": "kernel/huawei/angler"
   },
   {
    "remote": "github",
